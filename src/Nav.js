@@ -7,7 +7,7 @@ import React from 'react'
 const Navigation = () => (
 
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">HOME</Navbar.Brand>
+  <Navbar.Brand href="/">HOME</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
 
@@ -17,13 +17,13 @@ const Navigation = () => (
     </Nav>
     
     <Nav>
-    <Nav.Link href="#about">ABOUT
+    <Nav.Link href="/">ABOUT
     </Nav.Link>
-      <Nav.Link href="#projects">PROJECTS</Nav.Link>
-    <Nav.Link href="#talks">TALKS</Nav.Link>
-      <Nav.Link href="#blog">BLOG</Nav.Link>
-      <Nav.Link href="#resume">RESUME</Nav.Link>
-      <Nav.Link eventKey={2} href="#contact">
+      <Nav.Link href="/projects">PROJECTS</Nav.Link>
+    <Nav.Link href="/talks">TALKS</Nav.Link>
+      <Nav.Link href="/blog">BLOG</Nav.Link>
+      <Nav.Link href="/resume">RESUME</Nav.Link>
+      <Nav.Link eventKey={2} href="/contact">
         CONTACT
       </Nav.Link>
       <NavDropdown title="PAGES" id="collasible-nav-dropdown">
