@@ -19,12 +19,13 @@ const Navigation = () => (
     </Nav>
     
     <Nav>
-    <Link to="/">ABOUT</Link> 
-    <Link to="/projects">PROJECTS</Link>
-    <Link to="/talks">TALKS</Link>
-    <Link to="/blog">BLOG</Link>
-    <Link to="/resume">RESUME</Link>
-    <Link to="/contact">CONTACT</Link>
+        
+    <Nav.Link><Link to="/">ABOUT</Link></Nav.Link>
+    <Nav.Link><Link to="/projects">PROJECTS</Link></Nav.Link>
+    <Nav.Link><Link to="/talks">TALKS</Link></Nav.Link>
+    <Nav.Link><Link to="/blog">BLOG</Link></Nav.Link>
+    <Nav.Link><Link to="/resume">RESUME</Link></Nav.Link>
+    <Nav.Link><Link to="/contact">CONTACT</Link></Nav.Link>
 
     <NavDropdown title="PAGES" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Project Case Study (1 Column)</NavDropdown.Item>
@@ -35,6 +36,7 @@ const Navigation = () => (
     </NavDropdown>
 
     </Nav>
+    
   </Navbar.Collapse>
 </Navbar>
 
