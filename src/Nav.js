@@ -1,6 +1,6 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import React from 'react'
 
@@ -27,13 +27,13 @@ const Navigation = () => (
     <Nav.Link><Link to="/resume">RESUME</Link></Nav.Link>
     <Nav.Link><Link to="/contact">CONTACT</Link></Nav.Link>
 
-    <NavDropdown title="PAGES" id="collasible-nav-dropdown">
+    {/* <NavDropdown title="PAGES" id="collasible-nav-dropdown">
         <NavDropdown.Item href="#action/3.1">Project Case Study (1 Column)</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.2">Project Case Study (2 Columns)</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Blog Post</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-    </NavDropdown>
+    </NavDropdown> */}
 
     </Nav>
     

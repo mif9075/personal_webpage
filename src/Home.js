@@ -14,15 +14,15 @@ const Home = () => (
 					<div class="media-body text-center text-md-left">
 					<div class="lead">Hello, my name is</div>
 					<h2 class="mt-0 display-4 font-weight-bold">Miguel A. Fernandez</h2>
-					<div class="bio mb-3">I'm a full-stack developer specialised in frontend and backend development for complex scalable web apps. I write about web development on <a class="link-on-bg" href="blog.html">my blog</a> and regularly <a class="link-on-bg" href="talks.html">speak</a> at various web conferences and meetups. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="projects.html">case studies</a> and <a class="link-on-bg" href="resume.html">resume</a>.
+					<div class="bio mb-3">I'm a full-stack developer specialised in frontend and backend development for complex scalable web apps. I write about web development on <a class="link-on-bg" href="/blog">my blog</a> and regularly <a class="link-on-bg" href="/talks">speak</a> at various web conferences and meetups. Want to know how I may help your project? Check out my project <a class="link-on-bg" href="/projects">case studies</a> and <a class="link-on-bg" href="/resume">resume</a>.
 					</div>
-					<a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="contact.html">Hire Me</a>
+					<a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="/contact">Hire Me</a>
 					</div>
 				</div>
 	        </div>
 </Jumbotron>
 <div class="container">
-<div class="section-intro mx-auto text-center mb-5 text-secondary">I have 1 year experience building rich web applications. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience? <a href="resume.html">Check out my online resume</a>.</div>
+<div class="section-intro mx-auto text-center mb-5 text-secondary">I have 1 year experience building rich web applications. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience? <a href="/resume">Check out my online resume</a>.</div>
 <CardDeck>
   <Card>
     <Card.Img variant="top" />

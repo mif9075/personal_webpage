@@ -2,7 +2,10 @@ import React from 'react'
 
 const Resume = () => (
     <div>
-        <h1>Working</h1>
+        <p>
+        <h1>Under Construction!
+        </h1>
+        </p>
     </div>
 )
 
