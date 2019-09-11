@@ -48,7 +48,7 @@ function App() {
 <Jumbotron>
 	        <div class="container">
 		        <div class="profile-teaser media flex-column flex-md-row">
-				    <img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="adrian.jpg" alt=""></img>
+				    <img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="adrian.jpg" alt="" height="240" width="240"></img>
 					<div class="media-body text-center text-md-left">
 					<div class="lead">Hello, my name is</div>
 					<h2 class="mt-0 display-4 font-weight-bold">Miguel A. Fernandez</h2>
@@ -71,11 +71,11 @@ function App() {
       <Card.Header>Front End</Card.Header>
       <Card.Text>
         <ul>
-            <li>React/Redux/Angular</li>
+            <li>React</li>
             <li>Javascript</li>
-            <li>Node.js</li>
-            <li>Webpack/Gulp/Grunt</li>
-            <li>HTML/CSS/SASS/LESS</li>
+            <li>Bootrap</li>
+            <li>Webpack</li>
+            <li>HTML5/CSS3</li>
         </ul>
       </Card.Text>
     </Card.Body>
@@ -87,10 +87,10 @@ function App() {
       <Card.Header>Back End</Card.Header>
       <Card.Text>
       <ul>
-            <li>Python/Django</li>
-            <li>Ruby/Rails</li>
-            <li>PHP</li>
-            <li>PostgresSQL/MySQL</li>
+            <li>Express</li>
+            <li>Node.js</li>
+            <li>API development</li>
+            <li>Jira</li>
             <li>MongoDB</li>
         </ul>
       </Card.Text>
@@ -102,11 +102,11 @@ function App() {
       <Card.Header>Others</Card.Header>
       <Card.Text>
       <ul>
-            <li>React/Redux/Angular</li>
-            <li>Javascript</li>
-            <li>Node.js</li>
-            <li>Webpack/Gulp/Grunt</li>
-            <li>HTML/CSS/SASS/LESS</li>
+            <li>Git</li>
+            <li>WireFraming</li>
+            <li>Unix/Ubuntu</li>
+            <li>Microsoft Office</li>
+            <li>Code Review</li>
         </ul>
       </Card.Text>
     </Card.Body>
