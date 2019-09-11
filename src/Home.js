@@ -21,11 +21,8 @@ const Home = () => (
 				</div>
 	        </div>
 </Jumbotron>
-
 <div class="container">
-
 <div class="section-intro mx-auto text-center mb-5 text-secondary">I have 1 year experience building rich web applications. Below is a quick overview of my main technical skill sets and tools I use. Want to find out more about my experience? <a href="resume.html">Check out my online resume</a>.</div>
-
 <CardDeck>
   <Card>
     <Card.Img variant="top" />
@@ -77,5 +74,4 @@ const Home = () => (
 </div>
   </div>
 )
-
 export default Home
